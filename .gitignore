@@ -26,3 +26,34 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# JetBrains (WebStorm)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code (personal overrides only — extensions.json/launch.json/tasks.json stay tracked)
+.vscode/settings.json
+.vscode/*.local.json
+*.code-workspace
+
+# Docker
+.env.*
+!.env.example
+docker-compose.override.yml
